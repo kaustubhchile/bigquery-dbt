@@ -1,0 +1,11 @@
+sources:
+  - name: 'bq_table_1'
+    project: spartan-proxy-452006-m3
+    dataset: dbt_practice
+    tables:
+      - name: Users
+    
+models:
+  - name: 'dbt2'
+    config:
+      materialized: 'table'
