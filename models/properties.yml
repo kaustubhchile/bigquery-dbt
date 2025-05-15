@@ -4,7 +4,13 @@ sources:
     dataset: dbt_practice
     tables:
       - name: Users
-    
+
+  - name: 'bq_table_2'
+    project: spartan-proxy-452006-m3
+    dataset: dbt_target_dataset
+    tables:
+      - name: fruit
+
 models:
   - name: 'dbt2'
     config:
