@@ -1,0 +1,11 @@
+id,name,department,salary_usd,full_time
+1,Alice,HR,55000,Yes
+2,Bob,Finance,60000,Yes
+3,Charlie,Engineering,75000,Yes
+4,Diana,Marketing,50000,No
+5,Ethan,Engineering,80000,Yes
+6,Fiona,HR,52000,No
+7,George,Sales,58000,Yes
+8,Hannah,Marketing,51000,No
+9,Ian,Finance,62000,Yes
+10,Julia,Sales,59000,Yes
