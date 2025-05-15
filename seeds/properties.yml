@@ -1,0 +1,6 @@
+seeds:
+  - name: employee
+    config:
+      full_refresh: True
+      column_types:
+        id: string # in google bigquery there is no concept of varchar
