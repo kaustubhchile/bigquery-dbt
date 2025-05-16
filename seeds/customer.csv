@@ -1,0 +1,51 @@
+name,country,age,job,salary,card,issuer
+Alice Johnson,USA,29,Engineer,82000,credit,visa
+Ravi Kumar,India,34,Teacher,40000,debit,rupay
+Mei Ling,China,28,Designer,50000,credit,mastercard
+Carlos Mendez,Mexico,41,Chef,35000,debit,visa
+Anna Schmidt,Germany,32,Architect,71000,credit,amex
+Noura Al-Farsi,UAE,26,Doctor,98000,debit,visa
+Thabo Mokoena,South Africa,38,Engineer,64000,credit,mastercard
+Emily Clarke,UK,45,Manager,90000,credit,discover
+Kenji Tanaka,Japan,30,Software Developer,87000,debit,visa
+Sophie Dubois,France,31,Photographer,46000,debit,mastercard
+Michael Smith,USA,36,Analyst,76000,credit,visa
+Priya Sharma,India,29,Nurse,42000,debit,rupay
+Li Wei,China,43,Professor,88000,credit,discover
+Jorge Alvarez,Mexico,27,Accountant,52000,debit,visa
+Lukas Weber,Germany,39,Engineer,75000,credit,mastercard
+Fatima Hassan,UAE,33,Pharmacist,83000,debit,visa
+Zanele Khumalo,South Africa,25,Teacher,30000,credit,discover
+James Walker,UK,50,CEO,150000,credit,amex
+Yuki Sato,Japan,35,Product Manager,91000,debit,visa
+Julien Moreau,France,40,Chef,48000,credit,mastercard
+Emma Davis,USA,24,Student,15000,debit,visa
+Aarav Mehta,India,31,Engineer,67000,credit,rupay
+Chen Xiu,China,37,Researcher,73000,debit,mastercard
+Miguel Herrera,Mexico,45,Manager,88000,credit,amex
+Franziska Meier,Germany,28,Consultant,69000,debit,visa
+Omar Khalid,UAE,42,Lawyer,112000,credit,mastercard
+Sipho Dlamini,South Africa,29,Artist,31000,debit,visa
+Oliver Brown,UK,33,Scientist,72000,credit,discover
+Takashi Ito,Japan,40,Engineer,86000,debit,visa
+Camille Lefevre,France,36,Writer,54000,credit,amex
+Robert Miller,USA,27,Support Engineer,60000,debit,mastercard
+Ananya Desai,India,38,Doctor,92000,credit,rupay
+Huang Bo,China,30,Artist,45000,debit,visa
+Luis Gomez,Mexico,26,Teacher,34000,credit,discover
+Niklas Fischer,Germany,41,Developer,82000,debit,visa
+Layla Nasser,UAE,35,Entrepreneur,100000,credit,amex
+Lindiwe Nkosi,South Africa,34,Nurse,41000,debit,mastercard
+William Taylor,UK,46,Judge,134000,credit,visa
+Haruto Yamada,Japan,39,Scientist,94000,debit,discover
+Chloe Martin,France,29,Designer,56000,credit,mastercard
+Daniel Thompson,USA,31,Lawyer,99000,debit,amex
+Rajiv Verma,India,40,Engineer,77000,credit,rupay
+Zhao Yu,China,33,Economist,82000,debit,visa
+Andrea Ruiz,Mexico,38,Scientist,79000,credit,discover
+Helena Bauer,Germany,26,Photographer,46000,debit,mastercard
+Yousef Al-Mansoori,UAE,31,Analyst,87000,credit,visa
+Thandi Ndlovu,South Africa,44,Professor,93000,debit,amex
+George Harris,UK,37,Engineer,83000,credit,mastercard
+Naoki Fujimoto,Japan,32,Accountant,67000,debit,visa
+Lucie Bernard,France,45,Manager,91000,credit,discover
