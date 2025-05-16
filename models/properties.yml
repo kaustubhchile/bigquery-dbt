@@ -10,8 +10,12 @@ sources:
     dataset: dbt_target_dataset
     tables:
       - name: fruit
+      - name: dbt2
 
 models:
   - name: 'dbt2'
+    config:
+      materialized: 'table'
+  - name: 'invocation_new'
     config:
       materialized: 'table'
