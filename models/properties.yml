@@ -1,12 +1,12 @@
 sources:
   - name: 'bq_table_1'
-    project: spartan-proxy-452006-m3
+    project: parabolic-hook-475020-c0
     dataset: dbt_practice
     tables:
-      - name: Users
+      - name: customers
 
   - name: 'bq_table_2'
-    project: spartan-proxy-452006-m3
+    project: parabolic-hook-475020-c0
     dataset: dbt_target_dataset
     tables:
       - name: fruit
