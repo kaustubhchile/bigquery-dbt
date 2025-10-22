@@ -4,6 +4,8 @@ sources:
     dataset: dbt_practice
     tables:
       - name: customers
+      - name: Payments
+      - name: sales
 
   - name: 'bq_table_2'
     project: parabolic-hook-475020-c0
@@ -23,3 +25,6 @@ models:
   - name: 'ephemeral_cust'
     config:
       materialized: 'ephemeral'
+  - name: 'using_incremental'
+    config:
+      materialized: 'incremental'
