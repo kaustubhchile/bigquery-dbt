@@ -6,6 +6,10 @@ sources:
       - name: customers
       - name: Payments
       - name: sales
+      - name: new_customers
+      - name: new_customers_timestamp
+      - name: test_table
+      - name: marketing_stg
 
   - name: 'bq_table_2'
     project: parabolic-hook-475020-c0
@@ -14,17 +18,49 @@ sources:
       - name: fruit
       - name: dbt2
       - name: customer
+      - name: testing_inline
 
 models:
+  - name: 'dbt1'
   - name: 'dbt2'
     config:
-      materialized: 'table'
+      +materialized: 'table'
   - name: 'invocation_new'
     config:
-      materialized: 'table'
+      +materialized: 'table'
   - name: 'ephemeral_cust'
     config:
-      materialized: 'ephemeral'
+      +materialized: 'ephemeral'
   - name: 'using_incremental'
     config:
-      materialized: 'incremental'
+      +materialized: 'incremental'
+  - name: 'testing_inline'
+    columns:
+      - name: 'id'
+        tests:
+          - unique
+          - not_null
+      - name: 'gender'
+        tests:
+          - accepted_values:
+              values: ['Male','Female']
+  - name: 'test_relationship'
+    config: 
+      +materialized: 'table'
+    columns:
+      - name: 'id'
+        tests:
+          - relationships:
+              to: ref('testing_inline')
+              field: 'id'
+  - name: 'market_test'
+    config:
+      materialized: 'table'
+    columns:
+      - name: cost
+        tests: 
+          - gen_test
+          # new test
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 100
+              max_value: 500

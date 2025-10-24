@@ -89,3 +89,4 @@ select Order_ID,
 from {{source('bq_table_1','Payments')}}
 group by Order_ID
 order by Order_ID
+
